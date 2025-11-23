@@ -1,0 +1,7 @@
+env: "prod" # local, or dev, or prod
+storage_path: "./storage.db"
+http_server:
+  address: "0.0.0.0:8080"
+  timeout: 4s
+  idle_timeout: 60s
+  user: "monkstrife"

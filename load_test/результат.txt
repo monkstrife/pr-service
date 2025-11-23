@@ -1,0 +1,162 @@
+Summary:
+  Total:        30.0053 secs
+  Slowest:      0.0180 secs
+  Fastest:      0.0015 secs
+  Average:      0.0027 secs
+  Requests/sec: 24.9956
+
+  Total data:   142500 bytes
+  Size/request: 190 bytes
+
+Response time histogram:
+  0.002 [1]     |
+  0.003 [626]   |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  0.005 [117]   |■■■■■■■
+  0.006 [0]     |
+  0.008 [0]     |
+  0.010 [0]     |
+  0.011 [0]     |
+  0.013 [0]     |
+  0.015 [0]     |
+  0.016 [0]     |
+  0.018 [6]     |
+
+
+Latency distribution:
+  10% in 0.0018 secs
+  25% in 0.0021 secs
+  50% in 0.0026 secs
+  75% in 0.0030 secs
+  90% in 0.0033 secs
+  95% in 0.0036 secs
+  99% in 0.0042 secs
+
+Details (average, fastest, slowest):
+  DNS+dialup:   0.0001 secs, 0.0015 secs, 0.0180 secs
+  DNS-lookup:   0.0001 secs, 0.0000 secs, 0.0132 secs
+  req write:    0.0000 secs, 0.0000 secs, 0.0002 secs
+  resp wait:    0.0025 secs, 0.0015 secs, 0.0174 secs
+  resp read:    0.0000 secs, 0.0000 secs, 0.0002 secs
+
+Status code distribution:
+  [200] 750 responses
+
+
+
+
+Summary:
+  Total:        30.0047 secs
+  Slowest:      0.0230 secs
+  Fastest:      0.0014 secs
+  Average:      0.0027 secs
+  Requests/sec: 24.9961
+
+
+Response time histogram:
+  0.001 [1]     |
+  0.004 [727]   |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  0.006 [15]    |■
+  0.008 [0]     |
+  0.010 [0]     |
+  0.012 [0]     |
+  0.014 [0]     |
+  0.017 [4]     |
+  0.019 [2]     |
+  0.021 [0]     |
+  0.023 [1]     |
+
+
+Latency distribution:
+  10% in 0.0018 secs
+  25% in 0.0020 secs
+  50% in 0.0027 secs
+  75% in 0.0030 secs
+  90% in 0.0033 secs
+  95% in 0.0035 secs
+  99% in 0.0146 secs
+
+Details (average, fastest, slowest):
+  DNS+dialup:   0.0001 secs, 0.0014 secs, 0.0230 secs
+  DNS-lookup:   0.0001 secs, 0.0000 secs, 0.0127 secs
+  req write:    0.0000 secs, 0.0000 secs, 0.0004 secs
+  resp wait:    0.0025 secs, 0.0013 secs, 0.0229 secs
+  resp read:    0.0000 secs, 0.0000 secs, 0.0002 secs
+
+Status code distribution:
+  [200] 750 responses
+
+
+
+
+Summary:
+  Total:        30.0121 secs
+  Slowest:      0.0307 secs
+  Fastest:      0.0020 secs
+  Average:      0.0070 secs
+  Requests/sec: 399.8382
+
+
+Response time histogram:
+  0.002 [1]     |
+  0.005 [3366]  |■■■■■■■■■■■■■■■■■■■■■■■■■
+  0.008 [2903]  |■■■■■■■■■■■■■■■■■■■■■■
+  0.011 [5330]  |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  0.013 [269]   |■■
+  0.016 [62]    |
+  0.019 [46]    |
+  0.022 [11]    |
+  0.025 [9]     |
+  0.028 [1]     |
+  0.031 [2]     |
+
+
+Latency distribution:
+  10% in 0.0032 secs
+  25% in 0.0045 secs
+  50% in 0.0075 secs
+  75% in 0.0091 secs
+  90% in 0.0098 secs
+  95% in 0.0103 secs
+  99% in 0.0140 secs
+
+Details (average, fastest, slowest):
+  DNS+dialup:   0.0000 secs, 0.0020 secs, 0.0307 secs
+  DNS-lookup:   0.0000 secs, 0.0000 secs, 0.0134 secs
+  req write:    0.0000 secs, 0.0000 secs, 0.0009 secs
+  resp wait:    0.0069 secs, 0.0019 secs, 0.0306 secs
+  resp read:    0.0000 secs, 0.0000 secs, 0.0002 secs
+
+Status code distribution:
+  [200] 12000 responses
+
+
+
+
+Summary:
+  Total:        10.0023 secs
+  Slowest:      0.0000 secs
+  Fastest:      0.0000 secs
+  Average:       NaN secs
+  Requests/sec: 3.9991
+
+
+Response time histogram:
+
+
+Latency distribution:
+
+Details (average, fastest, slowest):
+  DNS+dialup:    NaN secs, 0.0000 secs, 0.0000 secs
+  DNS-lookup:    NaN secs, 0.0000 secs, 0.0000 secs
+  req write:     NaN secs, 0.0000 secs, 0.0000 secs
+  resp wait:     NaN secs, 0.0000 secs, 0.0000 secs
+  resp read:     NaN secs, 0.0000 secs, 0.0000 secs
+
+Status code distribution:
+
+Error distribution:
+  [40]  Post "single": unsupported protocol scheme ""
+
+team
+----
+@{team_name=load-team; members=System.Object[]}

@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  pr-service:
+    build: .
+    container_name: pr-service
+    ports:
+      - "8080:8080"
+    environment:
+      - CONFIG_PATH=/app/config/prod.yaml
+      - STORAGE_PATH=/app/storage/storage.db
+      - HTTP_SERVER_PASSWORD=secret
+    volumes:
+      - ./storage:/app/storage
