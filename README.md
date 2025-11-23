@@ -114,7 +114,7 @@
 
 ```powershell
 hey -z 30s -q 5 -c 5 "http://localhost:8080/stats"
-
+```
 Total:        30.0053 secs
 Requests/sec: 24.9956
 Average:      0.0027 secs
@@ -131,7 +131,7 @@ Average:      0.0027 secs
 
 ```powershell
 hey -z 30s -q 5 -c 5 "http://localhost:8080/users/getReview?user_id=u2"
-
+```
 Total:        30.0047 secs
 Requests/sec: 24.9961
 Average:      0.0027 secs
@@ -153,7 +153,7 @@ hey -z 10s -q 2 -c 2 `
     -H "Content-Type: application/json" `
     -d "$prBody" `
     "http://localhost:8080/pullRequest/create"
-
+```
 Total:        30.0121 secs
 Requests/sec: 399.8382
 Average:      0.0070 secs
